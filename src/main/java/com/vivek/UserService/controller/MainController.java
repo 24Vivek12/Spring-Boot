@@ -19,5 +19,10 @@ public class MainController {
     {
         return "Welcome to Spring boot";
     }
+    @GetMapping("rohit")
+    public String welcome2()
+    {
+        return "Welcome to Canada";
+    }
 
 }
